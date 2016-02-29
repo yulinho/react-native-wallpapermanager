@@ -32,7 +32,7 @@ public class TtManager extends ReactContextBaseJavaModule {
 
 
   @ReactMethod
-  public void show(final Callback callback){
+  public void show1(final Callback callback){
     Toast.makeText(getReactApplicationContext(), "message", Toast.LENGTH_LONG).show();
     WritableMap response = Arguments.createMap();
 
@@ -40,9 +40,15 @@ public class TtManager extends ReactContextBaseJavaModule {
       callback.invoke(response);
       
   }
+  @ReactMethod
   public void show(final ReadableMap options, final Callback callback){
     Toast.makeText(getReactApplicationContext(), "message", Toast.LENGTH_LONG).show();
     WritableMap response = Arguments.createMap();
+
+    if (options.hasKey("title")) {
+      
+      Toast.makeText(getReactApplicationContext(), options.getString("title"), Toast.LENGTH_LONG).show();
+    }
 
       response.putString("ok2", "can't find current Activity");
       callback.invoke(response);
