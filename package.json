@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/yulinho/react-native-tt.git"
   },
-  "version": "0.3.8",
+  "version": "0.1.0",
   "description": "test toast for react-native.",
   "author": {
     "name": "Lochlan Wansbrough",
