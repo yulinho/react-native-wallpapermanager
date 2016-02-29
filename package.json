@@ -28,8 +28,8 @@
     "url": "https://github.com/yulinho/react-native-tt/issues"
   },
   "homepage": "https://github.com/yulinho/react-native-tt#readme",
-  "_id": "react-native-tt@0.3.8",
-  "_shasum": "48c36e6c5a4dd5faec24c809f294700468178260",
+  "_id": "react-native-tt@0.1.0",
+  "_shasum": "d84cf493ed8a05077a6851c009f85d166dd2d6eb",
   "_from": "git+https://github.com/yulinho/react-native-tt.git",
-  "_resolved": "git+https://github.com/yulinho/react-native-tt.git#80d9ed6f256dc7f47f281a39f72902caf3d87f7f"
+  "_resolved": "git+https://github.com/yulinho/react-native-tt.git#29f13a02fe6c937bdb82ea0b5124b3bd6b483ab3"
 }

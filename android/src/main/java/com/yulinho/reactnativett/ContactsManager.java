@@ -21,7 +21,6 @@ import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
 
 import java.util.ArrayList;
-
 public class ContactsManager extends ReactContextBaseJavaModule {
 
   public ContactsManager(ReactApplicationContext reactContext) {
