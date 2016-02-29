@@ -28,6 +28,12 @@ public class ContactsManager extends ReactContextBaseJavaModule {
     super(reactContext);
   }
 
+
+  @ReactMethod
+  public void show(Callback callback){
+    Toast.makeText(getReactApplicationContext(), "message", Toast.LENGTH_LONG).show();
+  }
+
   /*
    * Returns all contactable records on phone
    * queries CommonDataKinds.Contactables to get phones and emails

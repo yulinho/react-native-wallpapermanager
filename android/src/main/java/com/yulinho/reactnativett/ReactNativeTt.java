@@ -1,4 +1,4 @@
-package com.rt2zz.reactnativecontacts;
+package com.yulinho.reactnativett;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
-public class ReactNativeContacts implements ReactPackage {
+public class Tt implements ReactPackage {
 
   @Override
   public List<NativeModule> createNativeModules(
