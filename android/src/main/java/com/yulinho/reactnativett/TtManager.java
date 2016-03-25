@@ -58,6 +58,6 @@ public class TtManager extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "Tt";
+    return "ReactNativeTt";
   }
 }

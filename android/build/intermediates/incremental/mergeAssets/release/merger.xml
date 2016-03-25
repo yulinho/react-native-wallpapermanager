@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Administrator\AwesomeProject\node_modules\react-native-tt\android\src\main\assets"/></dataSet><dataSet config="release"><source path="C:\Users\Administrator\AwesomeProject\node_modules\react-native-tt\android\src\release\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Administrator\RNprojects\101.iSexygirls\iSexygirls\node_modules\react-native-tt\android\src\main\assets"/></dataSet><dataSet config="release"><source path="C:\Users\Administrator\RNprojects\101.iSexygirls\iSexygirls\node_modules\react-native-tt\android\src\release\assets"/></dataSet></merger>

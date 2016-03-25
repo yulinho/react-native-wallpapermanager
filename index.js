@@ -1,2 +1,2 @@
-var ReactNative = require('react-native')
-module.exports = ReactNative.NativeModules.ReactNativeTt
+var { NativeModules } = require('react-native');
+module.exports = NativeModules.ReactNativeTt;

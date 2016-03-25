@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Administrator/AwesomeProject/node_modules/react-native-tt/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/res/values-es-rES/values-es-rES.xml -->
+    <!-- From: file:/C:/Users/Administrator/RNprojects/101.iSexygirls/iSexygirls/node_modules/react-native-tt/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.19.1/res/values-es-rES/values-es-rES.xml -->
     <eat-comment/>
     <string name="catalyst_debugjs">Debug JS</string>
     <string name="catalyst_element_inspector">Inspeccionar elemento</string>
