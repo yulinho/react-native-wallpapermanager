@@ -1,2 +1,2 @@
 var { NativeModules } = require('react-native');
-module.exports = NativeModules.ReactNativeTt;
+module.exports = NativeModules.ReactNativeWallpaperManager;

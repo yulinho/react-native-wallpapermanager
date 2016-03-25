@@ -1,17 +1,22 @@
-# react-native-tt
+# react-native-wallpapermanager
 
 npm install rnpm --global
 
-npm install https://github.com/yulinho/react-native-tt --save
+npm install https://github.com/yulinho/react-native-wallpapermanager --save
 
-rnpm link react-native-tt
+rnpm link react-native-wallpapermanager
+
+
+//WallpaperManager 
 
 usage:
 
+add permission <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
-
-	import Tt  from  'react-native-tt' 
-    Tt.show({
-      title:"title"
-    },function(){})
+	import WallpaperManager  from  'react-native-wallpapermanager' 
+    WallpaperManager.setWallpaper({
+      bitmapUri:uri
+    },function(res){
+    	console.log(res)
+    	})
 
