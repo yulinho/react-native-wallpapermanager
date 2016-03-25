@@ -8,9 +8,9 @@ rnpm link react-native-tt
 
 usage:
 
-import Tt  from  'react-native-tt' 
 
 
+	import Tt  from  'react-native-tt' 
     Tt.show({
       title:"title"
     },function(){})
